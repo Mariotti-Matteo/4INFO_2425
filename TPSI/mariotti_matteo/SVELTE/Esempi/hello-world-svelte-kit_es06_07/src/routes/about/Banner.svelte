@@ -1,14 +1,18 @@
 <script>
-    let name = "Mancuso Antonio"
-    // let name = "Jhon Doe"
-    // let name = "Luca Viganò"
+   
+    let name = "Matteo Mariotti"
+
+    function reverse_string(str) {
+        return str.split("").reverse().join("").toUpperCase();
+    }
 
 </script>
 
 <h1>
-    My name is {name}
-</h1>
+    <!-- My name is {name.toLocaleUpperCase()} -->
+    My name is {reverse_string(name)}
 
+</h1>
 <style>
     h1 {
         width: 30%;
