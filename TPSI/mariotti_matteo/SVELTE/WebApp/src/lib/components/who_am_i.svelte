@@ -14,7 +14,7 @@
 
 
 <h1>Io sono {nome} {cognome} e ho {eta} anni</h1>
-<p>Sono nato a {citta} il {dataNascita} e frequento {scuola}, presso la Sezione di {sezione} e sono attualmente in {classe} e abito a {residenza}</p>
+<p>Sono nato a {citta} il {dataNascita} e frequento {scuola}, presso la Sezione di {sezione}, sono attualmente in {classe} e abito a {residenza}</p>
 
 
 <img src={url} alt="Me stesso" width={larghezza_img} />
